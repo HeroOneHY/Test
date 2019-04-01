@@ -1,0 +1,2332 @@
+2019-02-23 16:08:22 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff8110888e0; archive(resolved)='<IDEArchive: 0x7ff81100f3e0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team(resolved)='<IDEProvisioningBasicTeam: 0x7ff80c4e3500; teamID='HY7NQZ87GC', teamName='Suheng Ji'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff8110888e0; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team='<IDEProvisioningBasicTeam: 0x7ff80c4e3500; teamID='HY7NQZ87GC', teamName='Suheng Ji'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ff811015760; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team='<IDEProvisioningBasicTeam: 0x7ff80c4e3500; teamID='HY7NQZ87GC', teamName='Suheng Ji'>'>
+	<IDEDistributionContext: 0x7ff811087870; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team='<IDEProvisioningBasicTeam: 0x7ff80c4e3500; teamID='HY7NQZ87GC', teamName='Suheng Ji'>'>
+	<IDEDistributionContext: 0x7ff811064780; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team='<IDEProvisioningBasicTeam: 0x7ff80c4e3500; teamID='HY7NQZ87GC', teamName='Suheng Ji'>'>
+	<IDEDistributionContext: 0x7ff80dfaeec0; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team='<IDEProvisioningBasicTeam: 0x7ff80c4e3500; teamID='HY7NQZ87GC', teamName='Suheng Ji'>'>
+	<IDEDistributionContext: 0x7ff80dfb7f90; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team='<IDEProvisioningBasicTeam: 0x7ff80c4e3500; teamID='HY7NQZ87GC', teamName='Suheng Ji'>'>
+	<IDEDistributionContext: 0x7ff8110651c0; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team='<IDEProvisioningBasicTeam: 0x7ff80c4e3500; teamID='HY7NQZ87GC', teamName='Suheng Ji'>'>
+	<IDEDistributionContext: 0x7ff811060a90; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team='<IDEProvisioningBasicTeam: 0x7ff80c4e3500; teamID='HY7NQZ87GC', teamName='Suheng Ji'>'>
+	<IDEDistributionContext: 0x7ff80df78640; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team='<IDEProvisioningBasicTeam: 0x7ff80c4e3500; teamID='HY7NQZ87GC', teamName='Suheng Ji'>'>
+	<IDEDistributionContext: 0x7ff80c4d9070; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff80d800030>', team='(null)'>
+	<IDEDistributionContext: 0x7ff811010130; archive = '<IDEArchive: 0x7ff81100f3e0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ff8110888e0>
+2019-02-23 16:08:22 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2019-02-23 16:08:22 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2019-02-23 16:08:22 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/yanhe/.jenkins/workspace/hehe/build/Debug-iphoneos/Test.xcarchive/Products/Applications/Test.app' '/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app'
+2019-02-23 16:08:22 +0000  >>> Copying /Users/yanhe/.jenkins/workspace/hehe/build/Debug-iphoneos/Test.xcarchive/Products/Applications/Test.app 
+2019-02-23 16:08:22 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-02-23 16:08:22 +0000  4803 bytes for ./_CodeSignature/CodeResources
+2019-02-23 16:08:22 +0000  copying file ./Test ... 
+2019-02-23 16:08:22 +0000  267984 bytes for ./Test
+2019-02-23 16:08:22 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2019-02-23 16:08:22 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2019-02-23 16:08:22 +0000  1986 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-02-23 16:08:22 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2019-02-23 16:08:22 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-02-23 16:08:22 +0000  1986 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-02-23 16:08:22 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-02-23 16:08:22 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-02-23 16:08:22 +0000  copying file ./embedded.mobileprovision ... 
+2019-02-23 16:08:22 +0000  7680 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2019-02-23 16:08:22 +0000  1096 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2019-02-23 16:08:22 +0000  8 bytes for ./PkgInfo
+2019-02-23 16:08:22 +0000  
+2019-02-23 16:08:22 +0000  
+2019-02-23 16:08:22 +0000  2019-02-23 16:08:22 +0000 [MT] /usr/bin/ditto exited with 0
+
+2019-02-23 16:08:22 +0000  
+2019-02-23 16:08:22 +0000  
+2019-02-23 16:08:22 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2019-02-23 16:08:22 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2019-02-23 16:08:22 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-02-23 16:08:22 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2019-02-23 16:08:22 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root' '--json' '/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool-json-filepath-OlBl0M' '--compile-bitcode' '--output' '/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/IDEIPAProcessor.AppThinning.8Ui' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2019-02-23 16:08:22 +0000  ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin17]
+2019-02-23 16:08:22 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2019-02-23 16:08:22 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2019-02-23 16:08:22 +0000  OS X 10.13.6 17G65
+2019-02-23 16:08:22 +0000  ENV: {"TERM_SESSION_ID"=>"884AC99B-AE65-4613-BB00-C63459237A6C", "rvm_user_install_flag"=>"1", "SECURITYSESSIONID"=>"186a8", "HUDSON_COOKIE"=>"305668bd-9813-4c2c-95dd-ecf7ca24bf17", "JOB_URL"=>"http://localhost:8080/job/hehe/", "PWD"=>"/Users/yanhe", "JAVA_HOME"=>"/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home", "BUILD_URL"=>"http://localhost:8080/job/hehe/12/", "rvm_bin_path"=>"/Users/yanhe/.rvm/bin", "WORKSPACE"=>"/Users/yanhe/.jenkins/workspace/hehe", "GIT_BRANCH"=>"origin/master", "HUDSON_SERVER_COOKIE"=>"87fe4fb1bb0961dd", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.y8BwuiMzY2/Render", "rvm_loaded_flag"=>"1", "JENKINS_HOME"=>"/Users/yanhe/.jenkins", "JENKINS_SERVER_COOKIE"=>"87fe4fb1bb0961dd", "JAVA_MAIN_CLASS_33352"=>"Main", "JENKINS_URL"=>"http://localhost:8080/", "RUN_CHANGES_DISPLAY_URL"=>"http://localhost:8080/job/hehe/12/display/redirect?page=changes", "_"=>"/usr/local/bin/jenkins", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34", "TERM_PROGRAM_VERSION"=>"404", "HUDSON_URL"=>"http://localhost:8080/", "HOME"=>"/Users/yanhe", "_system_arch"=>"x86_64", "COCOS_X_ROOT"=>"/Users/yanhe/Downloads", "NODE_LABELS"=>"master", "_system_type"=>"Darwin", "JOB_BASE_NAME"=>"hehe", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.Bm2oXOU9Sa/Listeners", "JOB_NAME"=>"hehe", "BUILD_ID"=>"12", "XPC_SERVICE_NAME"=>"0", "TMPDIR"=>"/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/", "TERM_PROGRAM"=>"Apple_Terminal", "HOMEBREW_NO_AUTO_UPDATE"=>"true", "_system_version"=>"10.13", "BUILD_DISPLAY_NAME"=>"#12", "BUILD_TAG"=>"jenkins-hehe-12", "NODE_NAME"=>"master", "GIT_URL"=>"https://github.com/HeroOneHY/Test.git", "GIT_COMMIT"=>"f0097c36e4240ad1d4e21fa7694f0317d8c36df1", "LANG"=>"en_US.UTF-8", "RUN_DISPLAY_URL"=>"http://localhost:8080/job/hehe/12/display/redirect", "PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "USER"=>"B612", "EXECUTOR_NUMBER"=>"0", "COCOS_CONSOLE_ROOT"=>"/Users/yanhe/Downloads/cocos2d-x-3.17.1/tools/cocos2d-console/bin", "SHELL"=>"/bin/bash", "TERM"=>"xterm-256color", "rvm_path"=>"/Users/yanhe/.rvm", "rvm_stored_umask"=>"0022", "XPC_FLAGS"=>"0x0", "BUILD_NUMBER"=>"12", "rvm_prefix"=>"/Users/yanhe", "rvm_version"=>"1.29.4 (latest)", "CMAKE_ROOT"=>"/Applications/CMake.app/Contents/bin/", "_system_name"=>"OSX", "SHLVL"=>"1", "COCOS_TEMPLATES_ROOT"=>"/Users/yanhe/Downloads/cocos2d-x-3.17.1/templates", "LOGNAME"=>"B612", "JOB_DISPLAY_URL"=>"http://localhost:8080/job/hehe/display/redirect", "GIT_PREVIOUS_COMMIT"=>"f0097c36e4240ad1d4e21fa7694f0317d8c36df1", "HUDSON_HOME"=>"/Users/yanhe/.jenkins", "LC_ALL"=>"en_US.UTF-8"}
+ARGV: ["/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root", "--json", "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool-json-filepath-OlBl0M", "--compile-bitcode", "--output", "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/IDEIPAProcessor.AppThinning.8Ui", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2019-02-23 16:08:22 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2019-02-23 16:08:22 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2019-02-23 16:08:22 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2019-02-23 16:08:22 +0000  Scanning IPA...
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35311 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35312 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35313 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35315 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Base.lproj/Main.storyboardc/Info.plist
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35316 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35317 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Info.plist
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35318 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/PkgInfo
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35319 exit 0
+    Stdout:
+        ASCII text, with no line terminators
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Test
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35320 exit 0
+    Stdout:
+        Mach-O universal binary with 2 architectures: [arm_v7:Mach-O executable arm_v7] [arm64:Mach-O 64-bit executable arm64]
+        /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Test (for architecture armv7):	Mach-O executable arm_v7
+        /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Test (for architecture arm64):	Mach-O 64-bit executable arm64
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Test
+2019-02-23 16:08:22 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 35321 exit 0
+    Stdout:
+        Architectures in the fat file: /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Test are: armv7 arm64 
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Test
+2019-02-23 16:08:22 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 35322 exit 0
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+           MH_MAGIC     ARM         V7  0x00     EXECUTE    22       2272   NOUNDEFS DYLDLINK TWOLEVEL PIE
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    22       2696   NOUNDEFS DYLDLINK TWOLEVEL PIE
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Test
+2019-02-23 16:08:22 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 35324 exit 0
+    Stdout:
+        /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Test:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+           MH_MAGIC     ARM         V7  0x00     EXECUTE    22       2272   NOUNDEFS DYLDLINK TWOLEVEL PIE
+        Load command 0
+              cmd LC_SEGMENT
+          cmdsize 56
+          segname __PAGEZERO
+           vmaddr 0x00000000
+           vmsize 0x00004000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 1
+              cmd LC_SEGMENT
+          cmdsize 532
+          segname __TEXT
+           vmaddr 0x00004000
+           vmsize 0x00008000
+          fileoff 0
+         filesize 32768
+          maxprot r-x
+         initprot r-x
+           nsects 7
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x0000a978
+              size 0x0000027c
+            offset 27000
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __picsymbolstub4
+           segname __TEXT
+              addr 0x0000abf4
+              size 0x00000070
+            offset 27636
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 16 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x0000ac64
+              size 0x00000078
+            offset 27748
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x0000acdc
+              size 0x00000a3f
+            offset 27868
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x0000b71b
+              size 0x0000003c
+            offset 30491
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x0000b757
+              size 0x0000082c
+            offset 30551
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x0000bf83
+              size 0x0000007a
+            offset 32643
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 2
+              cmd LC_SEGMENT
+          cmdsize 872
+          segname __DATA
+           vmaddr 0x0000c000
+           vmsize 0x00004000
+          fileoff 32768
+         filesize 16384
+          maxprot rw-
+         initprot rw-
+           nsects 12
+            flags (none)
+        Section
+          sectname __nl_symbol_ptr
+           segname __DATA
+              addr 0x0000c000
+              size 0x00000010
+            offset 32768
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+ 
+2019-02-23 16:08:22 +0000          reserved1 7 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000c010
+              size 0x0000001c
+            offset 32784
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 11 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0000c02c
+              size 0x00000008
+            offset 32812
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x0000c034
+              size 0x00000008
+            offset 32820
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x0000c03c
+              size 0x00000008
+            offset 32828
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x0000c044
+              size 0x00000638
+            offset 32836
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x0000c67c
+              size 0x0000000c
+            offset 34428
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x0000c688
+              size 0x00000004
+            offset 34440
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x0000c68c
+              size 0x00000004
+            offset 34444
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x0000c690
+              size 0x00000004
+            offset 34448
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x0000c694
+              size 0x00000050
+            offset 34452
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x0000c6e4
+              size 0x00000068
+            offset 34532
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 3
+              cmd LC_SEGMENT
+          cmdsize 124
+          segname __LLVM
+           vmaddr 0x00010000
+           vmsize 0x0000c000
+          fileoff 49152
+         filesize 49152
+          maxprot rw-
+         initprot rw-
+           nsects 1
+            flags NORELOC
+        Section
+          sectname __bundle
+   
+2019-02-23 16:08:22 +0000          segname __LLVM
+              addr 0x00010000
+              size 0x0000b3f4
+            offset 49152
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT
+          cmdsize 56
+          segname __LINKEDIT
+           vmaddr 0x0001c000
+           vmsize 0x00008000
+          fileoff 98304
+         filesize 22144
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 5
+                    cmd LC_DYLD_INFO_ONLY
+                cmdsize 48
+             rebase_off 98304
+            rebase_size 196
+               bind_off 98500
+              bind_size 320
+          weak_bind_off 0
+         weak_bind_size 0
+          lazy_bind_off 98820
+         lazy_bind_size 200
+             export_off 99020
+            export_size 168
+        Load command 6
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 99204
+           nsyms 18
+          stroff 99492
+         strsize 416
+        Load command 7
+                    cmd LC_DYSYMTAB
+                cmdsize 80
+              ilocalsym 0
+              nlocalsym 1
+             iextdefsym 1
+             nextdefsym 1
+              iundefsym 2
+              nundefsym 16
+                 tocoff 0
+                   ntoc 0
+              modtaboff 0
+                nmodtab 0
+           extrefsymoff 0
+            nextrefsyms 0
+         indirectsymoff 99420
+          nindirectsyms 18
+              extreloff 0
+                nextrel 0
+              locreloff 0
+                nlocrel 0
+        Load command 8
+                  cmd LC_LOAD_DYLINKER
+              cmdsize 28
+                 name /usr/lib/dyld (offset 12)
+        Load command 9
+             cmd LC_UUID
+         cmdsize 24
+            uuid CC69B852-6BFB-3D93-9AC4-79C84B15C30F
+        Load command 10
+              cmd LC_VERSION_MIN_IPHONEOS
+          cmdsize 16
+          version 10.1
+              sdk 11.4
+        Load command 11
+              cmd LC_SOURCE_VERSION
+          cmdsize 16
+          version 0.0
+        Load command 12
+               cmd LC_MAIN
+           cmdsize 24
+          entryoff 27133
+         stacksize 0
+        Load command 13
+                  cmd LC_ENCRYPTION_INFO
+              cmdsize 20
+             cryptoff 16384
+            cryptsize 16384
+              cryptid 0
+        Load command 14
+                  cmd LC_LOAD_DYLIB
+              cmdsize 84
+                 name /System/Library/Frameworks/Foundation.framework/Foundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1452.23.0
+        compatibility version 300.0.0
+        Load command 15
+                  cmd LC_LOAD_DYLIB
+              cmdsize 52
+                 name /usr/lib/libobjc.A.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 228.0.0
+        compatibility version 1.0.0
+        Load command 16
+                  cmd LC_LOAD_DYLIB
+              cmdsize 52
+                 name /usr/lib/libSystem.B.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1252.50.4
+        compatibility version 1.0.0
+        Load command 17
+                  cmd LC_LOAD_DYLIB
+              cmdsize 76
+                 name /System/Library/Frameworks/UIKit.framework/UIKit (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 3698.54.4
+        compatibility version 1.0.0
+        Load command 18
+                  cmd LC_RPATH
+              cmdsize 40
+                 path @executable_path/Frameworks (offset 12)
+        Load command 19
+              cmd LC_FUNCTION_STARTS
+          cmdsize 16
+          dataoff 99188
+         datasize 16
+        Load command 20
+              cmd LC_DATA_IN_CODE
+          cmdsize 16
+          dataoff 99204
+         datasize 0
+        Load command 21
+              cmd LC_CODE_SIGNATURE
+          cmdsize 16
+          dataoff 99920
+         datasize
+2019-02-23 16:08:22 +0000   20528
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Test
+2019-02-23 16:08:22 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 35326 exit 0
+    Stdout:
+        /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/Test:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    22       2696   NOUNDEFS DYLDLINK TWOLEVEL PIE
+        Load command 0
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __PAGEZERO
+           vmaddr 0x0000000000000000
+           vmsize 0x0000000100000000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 1
+              cmd LC_SEGMENT_64
+          cmdsize 712
+          segname __TEXT
+           vmaddr 0x0000000100000000
+           vmsize 0x0000000000008000
+          fileoff 0
+         filesize 32768
+          maxprot r-x
+         initprot r-x
+           nsects 8
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x0000000100006754
+              size 0x0000000000000404
+            offset 26452
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __stubs
+           segname __TEXT
+              addr 0x0000000100006b58
+              size 0x000000000000006c
+            offset 27480
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 12 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x0000000100006bc4
+              size 0x0000000000000084
+            offset 27588
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x0000000100006c48
+              size 0x0000000000000a3f
+            offset 27720
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x0000000100007687
+              size 0x000000000000003c
+            offset 30343
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x00000001000076c3
+              size 0x000000000000086d
+            offset 30403
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x0000000100007f30
+              size 0x000000000000007a
+            offset 32560
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __unwind_info
+           segname __TEXT
+              addr 0x0000000100007fac
+              size 0x0000000000000054
+            offset 32684
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 2
+              cmd LC_SEGMENT_64
+          cmdsize 1032
+          segname __DATA
+           vm
+2019-02-23 16:08:22 +0000  addr 0x0000000100008000
+           vmsize 0x0000000000004000
+          fileoff 32768
+         filesize 16384
+          maxprot rw-
+         initprot rw-
+           nsects 12
+            flags (none)
+        Section
+          sectname __got
+           segname __DATA
+              addr 0x0000000100008000
+              size 0x0000000000000010
+            offset 32768
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 9 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000000100008010
+              size 0x0000000000000048
+            offset 32784
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 11 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0000000100008058
+              size 0x0000000000000010
+            offset 32856
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x0000000100008068
+              size 0x0000000000000010
+            offset 32872
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x0000000100008078
+              size 0x0000000000000008
+            offset 32888
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x0000000100008080
+              size 0x0000000000000c00
+            offset 32896
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x0000000100008c80
+              size 0x0000000000000018
+            offset 35968
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x0000000100008c98
+              size 0x0000000000000008
+            offset 35992
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x0000000100008ca0
+              size 0x0000000000000008
+            offset 36000
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x0000000100008ca8
+              size 0x0000000000000004
+            offset 36008
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x0000000100008cb0
+              size 0x00000000000000a0
+            offset 36016
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         rese
+2019-02-23 16:08:22 +0000  rved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x0000000100008d50
+              size 0x00000000000000c0
+            offset 36176
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 3
+              cmd LC_SEGMENT_64
+          cmdsize 152
+          segname __LLVM
+           vmaddr 0x000000010000c000
+           vmsize 0x000000000000c000
+          fileoff 49152
+         filesize 49152
+          maxprot rw-
+         initprot rw-
+           nsects 1
+            flags NORELOC
+        Section
+          sectname __bundle
+           segname __LLVM
+              addr 0x000000010000c000
+              size 0x000000000000b3e3
+            offset 49152
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __LINKEDIT
+           vmaddr 0x0000000100018000
+           vmsize 0x0000000000008000
+          fileoff 98304
+         filesize 22224
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 5
+                    cmd LC_DYLD_INFO_ONLY
+                cmdsize 48
+             rebase_off 98304
+            rebase_size 200
+               bind_off 98504
+              bind_size 264
+          weak_bind_off 0
+         weak_bind_size 0
+          lazy_bind_off 98768
+         lazy_bind_size 248
+             export_off 99016
+            export_size 168
+        Load command 6
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 99208
+           nsyms 18
+          stroff 99576
+         strsize 416
+        Load command 7
+                    cmd LC_DYSYMTAB
+                cmdsize 80
+              ilocalsym 0
+              nlocalsym 1
+             iextdefsym 1
+             nextdefsym 1
+              iundefsym 2
+              nundefsym 16
+                 tocoff 0
+                   ntoc 0
+              modtaboff 0
+                nmodtab 0
+           extrefsymoff 0
+            nextrefsyms 0
+         indirectsymoff 99496
+          nindirectsyms 20
+              extreloff 0
+                nextrel 0
+              locreloff 0
+                nlocrel 0
+        Load command 8
+                  cmd LC_LOAD_DYLINKER
+              cmdsize 32
+                 name /usr/lib/dyld (offset 12)
+        Load command 9
+             cmd LC_UUID
+         cmdsize 24
+            uuid 9F248EB7-E857-3AF0-9EB0-84CE61F19D1C
+        Load command 10
+              cmd LC_VERSION_MIN_IPHONEOS
+          cmdsize 16
+          version 10.1
+              sdk 11.4
+        Load command 11
+              cmd LC_SOURCE_VERSION
+          cmdsize 16
+          version 0.0
+        Load command 12
+               cmd LC_MAIN
+           cmdsize 24
+          entryoff 26612
+         stacksize 0
+        Load command 13
+                  cmd LC_ENCRYPTION_INFO_64
+              cmdsize 24
+             cryptoff 16384
+            cryptsize 16384
+              cryptid 0
+                  pad 0
+        Load command 14
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/Foundation.framework/Foundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1452.23.0
+        compatibility version 300.0.0
+        Load command 15
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libobjc.A.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 228.0.0
+        compatibility version 1.0.0
+        Load command 16
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libSystem.B.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1252.50.4
+        compatibility version 1.0.0
+        Load command 17
+                 
+2019-02-23 16:08:22 +0000   cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/UIKit.framework/UIKit (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 3698.54.4
+        compatibility version 1.0.0
+        Load command 18
+                  cmd LC_RPATH
+              cmdsize 40
+                 path @executable_path/Frameworks (offset 12)
+        Load command 19
+              cmd LC_FUNCTION_STARTS
+          cmdsize 16
+          dataoff 99184
+         datasize 24
+        Load command 20
+              cmd LC_DATA_IN_CODE
+          cmdsize 16
+          dataoff 99208
+         datasize 0
+        Load command 21
+              cmd LC_CODE_SIGNATURE
+          cmdsize 16
+          dataoff 100000
+         datasize 20528
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/_CodeSignature/CodeResources
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35328 exit 0
+    Stdout:
+        XML 1.0 document text, ASCII text
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app/embedded.mobileprovision
+2019-02-23 16:08:22 +0000      /usr/bin/file exited with pid 35329 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2019-02-23 16:08:22 +0000  Complete LinkageGraph:
+    Test.app/Test armv7 ->
+    
+    Test.app/Test arm64 ->
+2019-02-23 16:08:22 +0000  Validating IPA structure...
+2019-02-23 16:08:23 +0000  Compiling bitcode...
+2019-02-23 16:08:23 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk -o /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test --generate-dsym /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test.dSYM --strip-swift-symbols /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test
+2019-02-23 16:08:23 +0000    Compiling bitcode for armv7...
+    Compiling armv7 bitcode in 'Test'
+2019-02-23 16:08:23 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 35351 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test" 
+        -= Output =-
+        Non-fat file: /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test is architecture: armv7
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test" 
+        -= Output =-
+        UUID: CC69B852-6BFB-3D93-9AC4-79C84B15C30F (armv7) /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test" "-extract" "__LLVM" "__bundle" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/TestaDeyKp/Test.armv7.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/tempSCy5g3
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.1.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-O0" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/tempSCy5g3
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.1.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-O0" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/tempSCy5g3
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.1.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-O0" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Dev
+2019-02-23 16:08:23 +0000  eloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/tempSCy5g3
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "armv7" "-execute" "-ios_version_min" "10.1.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/yanhe/Library/Developer/Xcode/DerivedData/Test-bwxfgewnggzxpteznixokbmkumaj/Build/Intermediates.noindex/ArchiveIntermediates/Test/IntermediateBuildFilesPath/Test.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test" "-dead_strip" "-export_dynamic" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk" "-sdk_version" "11.4.0" "-filelist" "/private/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/TestaDeyKp/Test.armv7.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/TestaDeyKp/Test.armv7.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test" 
+        -= Output =-
+        UUID: 5000EFF0-3A50-3529-AE17-6D194E8ED123 (armv7) /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test" "-o" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1m
+2019-02-23 16:08:23 +0000  t5o60/thinned/armv7/Payload/Test.app/Test" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test
+2019-02-23 16:08:23 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 35367 exit 0
+    Stdout:
+        /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test [armv7, 0.006233 seconds]:
+    
+    Stderr:
+2019-02-23 16:08:23 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test
+2019-02-23 16:08:23 +0000      /usr/bin/file exited with pid 35368 exit 0
+    Stdout:
+        Mach-O dSYM companion file arm_v7
+    
+    Stderr:
+2019-02-23 16:08:23 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test
+2019-02-23 16:08:23 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 35369 exit 0
+    Stdout:
+        Non-fat file: /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test is architecture: armv7
+    
+    Stderr:
+2019-02-23 16:08:23 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test
+2019-02-23 16:08:23 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 35370 exit 0
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+           MH_MAGIC     ARM         V7  0x00        DSYM     7       2300 0x00000000
+    
+    Stderr:
+2019-02-23 16:08:23 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test
+2019-02-23 16:08:23 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 35372 exit 0
+    Stdout:
+        /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/armv7/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+           MH_MAGIC     ARM         V7  0x00        DSYM     7       2300 0x00000000
+        Load command 0
+             cmd LC_UUID
+         cmdsize 24
+            uuid 5000EFF0-3A50-3529-AE17-6D194E8ED123
+        Load command 1
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 4096
+           nsyms 19
+          stroff 4324
+         strsize 311
+        Load command 2
+              cmd LC_SEGMENT
+          cmdsize 56
+          segname __PAGEZERO
+           vmaddr 0x00000000
+           vmsize 0x00004000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 3
+              cmd LC_SEGMENT
+          cmdsize 532
+          segname __TEXT
+           vmaddr 0x00004000
+           vmsize 0x00008000
+          fileoff 0
+         filesize 0
+          maxprot r-x
+         initprot r-x
+           nsects 7
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x0000a978
+              size 0x0000027c
+            offset 0
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __picsymbolstub4
+           segname __TEXT
+              addr 0x0000abf4
+              size 0x00000070
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 16 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x0000ac64
+              size 0x00000078
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x0000acdc
+              size 0x00000a3f
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x0000b71b
+              size 0x0000003c
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x0000b757
+              size 0x0000082c
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x0000bf83
+              size 0x0000007a
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT
+          cmdsize 872
+          segname __DATA
+           vmaddr 0x0000c000
+           vmsize 0x00004000
+          fileoff 0
+         filesize 0
+          maxprot rw-
+         initprot rw-
+           nsects 12
+            flags (none)
+        Section
+          sectname __
+2019-02-23 16:08:23 +0000  nl_symbol_ptr
+           segname __DATA
+              addr 0x0000c000
+              size 0x00000010
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 7 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000c010
+              size 0x0000001c
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 11 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0000c02c
+              size 0x00000008
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x0000c034
+              size 0x00000008
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x0000c03c
+              size 0x00000008
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x0000c044
+              size 0x00000638
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x0000c67c
+              size 0x0000000c
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x0000c688
+              size 0x00000004
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x0000c68c
+              size 0x00000004
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x0000c690
+              size 0x00000004
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x0000c694
+              size 0x00000050
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x0000c6e4
+              size 0x00000068
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 5
+              cmd LC_SEGMENT
+          cmdsize 56
+          segname __LINKEDIT
+           vmaddr 0x0
+2019-02-23 16:08:23 +0000  0010000
+           vmsize 0x00001000
+          fileoff 4096
+         filesize 539
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 6
+              cmd LC_SEGMENT
+          cmdsize 736
+          segname __DWARF
+           vmaddr 0x00011000
+           vmsize 0x00001000
+          fileoff 8192
+         filesize 1698
+          maxprot rwx
+         initprot rw-
+           nsects 10
+            flags (none)
+        Section
+          sectname __debug_line
+           segname __DWARF
+              addr 0x00011000
+              size 0x00000154
+            offset 8192
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_pubnames
+           segname __DWARF
+              addr 0x00011154
+              size 0x000000fc
+            offset 8532
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_aranges
+           segname __DWARF
+              addr 0x00011250
+              size 0x00000060
+            offset 8784
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_info
+           segname __DWARF
+              addr 0x000112b0
+              size 0x00000114
+            offset 8880
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_abbrev
+           segname __DWARF
+              addr 0x000113c4
+              size 0x00000022
+            offset 9156
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_str
+           segname __DWARF
+              addr 0x000113e6
+              size 0x000000d4
+            offset 9190
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_names
+           segname __DWARF
+              addr 0x000114ba
+              size 0x00000170
+            offset 9402
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_namespac
+           segname __DWARF
+              addr 0x0001162a
+              size 0x00000024
+            offset 9770
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_types
+           segname __DWARF
+              addr 0x0001164e
+              size 0x00000030
+            offset 9806
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_objc
+           segname __DWARF
+              addr 0x0001167e
+              size 0x00000024
+            offset 9854
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+    
+    Stderr:
+2019-02-23 16:08:23 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk -o /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test --generate-dsym /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test.dSYM --strip-swift-symbols /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test
+2019-02-23 16:08:23 +0000    Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'Test'
+2019-02-23 16:08:24 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 35374 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test" 
+        -= Output =-
+        Non-fat file: /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test" 
+        -= Output =-
+        UUID: 9F248EB7-E857-3AF0-9EB0-84CE61F19D1C (arm64) /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test" "-extract" "__LLVM" "__bundle" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/TestClkQ0w/Test.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/tempSfIdB2
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.1.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/tempSfIdB2
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.1.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/tempSfIdB2
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.1.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk
+2019-02-23 16:08:24 +0000  /usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/tempSfIdB2
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "10.1.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/yanhe/Library/Developer/Xcode/DerivedData/Test-bwxfgewnggzxpteznixokbmkumaj/Build/Intermediates.noindex/ArchiveIntermediates/Test/IntermediateBuildFilesPath/Test.build/Debug-iphoneos/Test.build/Objects-normal/arm64/Test" "-dead_strip" "-export_dynamic" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk" "-sdk_version" "11.4.0" "-filelist" "/private/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/TestClkQ0w/Test.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/TestClkQ0w/Test.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test" 
+        -= Output =-
+        UUID: 7D85907C-E671-3BBE-9D61-434A4699A0CE (arm64) /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test" "-o" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test" 
+        -= Output =-
+ 
+2019-02-23 16:08:24 +0000         Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test
+2019-02-23 16:08:24 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 35390 exit 0
+    Stdout:
+        /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test [arm64, 0.004213 seconds]:
+    
+    Stderr:
+2019-02-23 16:08:24 +0000  /usr/bin/file -b -- /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test
+2019-02-23 16:08:24 +0000      /usr/bin/file exited with pid 35391 exit 0
+    Stdout:
+        Mach-O 64-bit dSYM companion file arm64
+    
+    Stderr:
+2019-02-23 16:08:24 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test
+2019-02-23 16:08:24 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 35392 exit 0
+    Stdout:
+        Non-fat file: /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test is architecture: arm64
+    
+    Stderr:
+2019-02-23 16:08:24 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test
+2019-02-23 16:08:24 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 35393 exit 0
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       2808 0x00000000
+    
+    Stderr:
+2019-02-23 16:08:24 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test
+2019-02-23 16:08:24 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 35395 exit 0
+    Stdout:
+        /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/ipatool20190224-35302-1mt5o60/thinned/arm64/Payload/Test.app/Test.dSYM/Contents/Resources/DWARF/Test:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       2808 0x00000000
+        Load command 0
+             cmd LC_UUID
+         cmdsize 24
+            uuid 7D85907C-E671-3BBE-9D61-434A4699A0CE
+        Load command 1
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 4096
+           nsyms 18
+          stroff 4384
+         strsize 297
+        Load command 2
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __PAGEZERO
+           vmaddr 0x0000000000000000
+           vmsize 0x0000000100000000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 3
+              cmd LC_SEGMENT_64
+          cmdsize 712
+          segname __TEXT
+           vmaddr 0x0000000100000000
+           vmsize 0x0000000000008000
+          fileoff 0
+         filesize 0
+          maxprot r-x
+         initprot r-x
+           nsects 8
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x0000000100006754
+              size 0x0000000000000404
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __stubs
+           segname __TEXT
+              addr 0x0000000100006b58
+              size 0x000000000000006c
+            offset 0
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 12 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x0000000100006bc4
+              size 0x0000000000000084
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x0000000100006c48
+              size 0x0000000000000a3f
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x0000000100007687
+              size 0x000000000000003c
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           segname __TEXT
+              addr 0x00000001000076c3
+              size 0x000000000000086d
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x0000000100007f30
+              size 0x000000000000007a
+            offset 0
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __unwind_info
+           segname __TEXT
+              addr 0x0000000100007fac
+              size 0x0000000000000054
+            offset 0
+           
+2019-02-23 16:08:24 +0000    align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 4
+              cmd LC_SEGMENT_64
+          cmdsize 1032
+          segname __DATA
+           vmaddr 0x0000000100008000
+           vmsize 0x0000000000004000
+          fileoff 0
+         filesize 0
+          maxprot rw-
+         initprot rw-
+           nsects 12
+            flags (none)
+        Section
+          sectname __got
+           segname __DATA
+              addr 0x0000000100008000
+              size 0x0000000000000010
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 9 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000000100008010
+              size 0x0000000000000048
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 11 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0000000100008058
+              size 0x0000000000000010
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x0000000100008068
+              size 0x0000000000000010
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x0000000100008078
+              size 0x0000000000000008
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x0000000100008080
+              size 0x0000000000000c00
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x0000000100008c80
+              size 0x0000000000000018
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x0000000100008c98
+              size 0x0000000000000008
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x0000000100008ca0
+              size 0x0000000000000008
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x0000000100008ca8
+              size 0x0000000000000004
+            offset 0
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x0000000100008cb
+2019-02-23 16:08:24 +0000  0
+              size 0x00000000000000a0
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x0000000100008d50
+              size 0x00000000000000c0
+            offset 0
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 5
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __LINKEDIT
+           vmaddr 0x000000010000c000
+           vmsize 0x0000000000001000
+          fileoff 4096
+         filesize 585
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 6
+              cmd LC_SEGMENT_64
+          cmdsize 872
+          segname __DWARF
+           vmaddr 0x000000010000d000
+           vmsize 0x0000000000001000
+          fileoff 8192
+         filesize 1832
+          maxprot rwx
+         initprot rw-
+           nsects 10
+            flags (none)
+        Section
+          sectname __debug_line
+           segname __DWARF
+              addr 0x000000010000d000
+              size 0x000000000000016e
+            offset 8192
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_pubnames
+           segname __DWARF
+              addr 0x000000010000d16e
+              size 0x00000000000000fc
+            offset 8558
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_aranges
+           segname __DWARF
+              addr 0x000000010000d26a
+              size 0x0000000000000090
+            offset 8810
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_info
+           segname __DWARF
+              addr 0x000000010000d2fa
+              size 0x0000000000000150
+            offset 8954
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_abbrev
+           segname __DWARF
+              addr 0x000000010000d44a
+              size 0x0000000000000022
+            offset 9290
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __debug_str
+           segname __DWARF
+              addr 0x000000010000d46c
+              size 0x00000000000000d4
+            offset 9324
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_names
+           segname __DWARF
+              addr 0x000000010000d540
+              size 0x0000000000000170
+            offset 9536
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_namespac
+           segname __DWARF
+              addr 0x000000010000d6b0
+              size 0x0000000000000024
+            offset 9904
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_types
+           segname __DWARF
+              addr 0x000000010000d6d4
+              size 0x0000000000000030
+            offset 
+2019-02-23 16:08:24 +0000  9940
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __apple_objc
+           segname __DWARF
+              addr 0x000000010000d704
+              size 0x0000000000000024
+            offset 9988
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+    
+    Stderr:
+2019-02-23 16:08:24 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/IDEIPAProcessor.AppThinning.8Ui/universal
+  Copying Test.app output payload directory
+2019-02-23 16:08:24 +0000  /Library/Ruby/Gems/2.3.0/gems/CFPropertyList-3.0.0/lib/cfpropertylist/rbCFPropertyList.rb:378: warning: File.exists? is a deprecated name, use File.exist? instead
+2019-02-23 16:08:24 +0000    Copying .dSYM files to /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/IDEIPAProcessor.AppThinning.8Ui/universal/dSYMs
+  Copying .symbols files to /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/IDEIPAProcessor.AppThinning.8Ui/universal/Symbols
+2019-02-23 16:08:24 +0000  2019-02-23 16:08:24 +0000  
+
+2019-02-23 16:08:24 +0000 [MT] /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+2019-02-23 16:08:24 +0000  2019-02-23 16:08:24 +0000  
+
+2019-02-23 16:08:24 +0000 [MT] ipatool JSON: {
+    alerts =     (
+                {
+            code = 2887;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2887;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2887;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+    );
+    universalIPA =     {
+        path = "/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/IDEIPAProcessor.AppThinning.8Ui/universal";
+    };
+}
+2019-02-23 16:08:24 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2019-02-23 16:08:24 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-02-23 16:08:24 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2019-02-23 16:08:24 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-02-23 16:08:24 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2019-02-23 16:08:24 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2019-02-23 16:08:24 +0000 [MT] Processing step: IDEDistributionODRStep
+2019-02-23 16:08:24 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2019-02-23 16:08:24 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app'
+2019-02-23 16:08:24 +0000  
+2019-02-23 16:08:24 +0000  
+2019-02-23 16:08:24 +0000 [MT] /usr/bin/xattr exited with 0
+2019-02-23 16:08:24 +0000  2019-02-23 16:08:24 +0000  
+
+2019-02-23 16:08:24 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2019-02-23 16:08:24 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7ff80c4e7680 'b612.Test' '<DVTFilePath:0x7ff81100fbb0:'/Users/yanhe/.jenkins/workspace/hehe/build/Debug-iphoneos/Test.xcarchive/Products/Applications/Test.app'>'>: {
+    "application-identifier" = "HY7NQZ87GC.b612.Test";
+    "com.apple.developer.team-identifier" = HY7NQZ87GC;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "HY7NQZ87GC.b612.Test"
+    );
+}
+2019-02-23 16:08:24 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7ff80c4e7680 'b612.Test' '<DVTFilePath:0x7ff81100fbb0:'/Users/yanhe/.jenkins/workspace/hehe/build/Debug-iphoneos/Test.xcarchive/Products/Applications/Test.app'>'> to: /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/entitlementsTQ6Pt3
+2019-02-23 16:08:24 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '868CF551FE17F6BA5AB0236A94ACEA7E9DEDD4B9' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/entitlementsTQ6Pt3' '/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app'
+2019-02-23 16:08:24 +0000  /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root/Payload/Test.app: signed app bundle with Mach-O universal (armv7 arm64) [b612.Test]
+2019-02-23 16:08:24 +0000  2019-02-23 16:08:24 +0000  
+
+2019-02-23 16:08:24 +0000 [MT] /usr/bin/codesign exited with 02019-02-23 16:08:24 +0000  
+
+2019-02-23 16:08:24 +0000  
+2019-02-23 16:08:24 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
+2019-02-23 16:08:24 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2019-02-23 16:08:24 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2019-02-23 16:08:24 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root' '/var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Packages/Test.ipa'
+2019-02-23 16:08:24 +0000  >>> Copying /var/folders/fc/l9w3w67s2xqb4wn8j16tqkrh0000gn/T/XcodeDistPipeline.sLb/Root 
+2019-02-23 16:08:24 +0000  copying file ./Payload/Test.app/_CodeSignature/CodeResources ... 
+2019-02-23 16:08:24 +0000  4803 bytes for ./Payload/Test.app/_CodeSignature/CodeResources
+2019-02-23 16:08:24 +0000  copying file ./Payload/Test.app/Test ... 
+2019-02-23 16:08:24 +0000  169056 bytes for ./Payload/Test.app/Test
+2019-02-23 16:08:24 +0000  copying file ./Payload/Test.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2019-02-23 16:08:24 +0000  916 bytes for ./Payload/Test.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/Test.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2019-02-23 16:08:24 +0000  1986 bytes for ./Payload/Test.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Test.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-02-23 16:08:24 +0000  258 bytes for ./Payload/Test.app/Base.lproj/Main.storyboardc/Info.plist
+2019-02-23 16:08:24 +0000  copying file ./Payload/Test.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-02-23 16:08:24 +0000  1986 bytes for ./Payload/Test.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-02-23 16:08:24 +0000  copying file ./Payload/Test.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-02-23 16:08:24 +0000  832 bytes for ./Payload/Test.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Test.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-02-23 16:08:24 +0000  258 bytes for ./Payload/Test.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Test.app/embedded.mobileprovision ... 
+2019-02-23 16:08:24 +0000  7680 bytes for ./Payload/Test.app/embedded.mobileprovision
+copying file ./Payload/Test.app/Info.plist ... 
+2019-02-23 16:08:24 +0000  2331 bytes for ./Payload/Test.app/Info.plist
+2019-02-23 16:08:24 +0000  copying file ./Payload/Test.app/PkgInfo ... 
+8 bytes for ./Payload/Test.app/PkgInfo
+2019-02-23 16:08:24 +0000  
+2019-02-23 16:08:24 +0000  
+2019-02-23 16:08:24 +0000  
+2019-02-23 16:08:24 +0000 [MT] /usr/bin/ditto exited with 0
+2019-02-23 16:08:24 +0000  
+2019-02-23 16:08:24 +0000  
+2019-02-23 16:08:24 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
